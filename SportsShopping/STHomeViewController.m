@@ -17,9 +17,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-<<<<<<< HEAD
-    
-=======
 	// Do any additional setup after loading the view.
     [self createUI];
     [self addScrollView];
@@ -121,7 +118,6 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
->>>>>>> 720ae9f7e3ba261b975659f2a47ead79ca9ec100
 }
 
 @end
