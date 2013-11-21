@@ -37,6 +37,7 @@
 		D27B66E2183E1587007555F5 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B66E1183E1587007555F5 /* NSString+URLEncoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D27B66E5183E1590007555F5 /* STBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B66E4183E1590007555F5 /* STBaseViewController.m */; };
 		D27B66E8183E1614007555F5 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D27B66E7183E1614007555F5 /* libsqlite3.0.dylib */; };
+		D27B66EB183E164D007555F5 /* STHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B66EA183E164D007555F5 /* STHomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,8 @@
 		D27B66E3183E1590007555F5 /* STBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBaseViewController.h; sourceTree = "<group>"; };
 		D27B66E4183E1590007555F5 /* STBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBaseViewController.m; sourceTree = "<group>"; };
 		D27B66E7183E1614007555F5 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		D27B66E9183E164D007555F5 /* STHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHomeViewController.h; sourceTree = "<group>"; };
+		D27B66EA183E164D007555F5 /* STHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STHomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +212,8 @@
 		D27B66AB183E14F9007555F5 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				D27B66E9183E164D007555F5 /* STHomeViewController.h */,
+				D27B66EA183E164D007555F5 /* STHomeViewController.m */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -385,6 +390,7 @@
 				D27B66C9183E1550007555F5 /* SDWebImageManager.m in Sources */,
 				D27B66DB183E1562007555F5 /* FMDatabaseQueue.m in Sources */,
 				D27B66DC183E1562007555F5 /* FMResultSet.m in Sources */,
+				D27B66EB183E164D007555F5 /* STHomeViewController.m in Sources */,
 				D27B66B2183E1542007555F5 /* UIView+Position.m in Sources */,
 				D27B668D183E1361007555F5 /* STAppDelegate.m in Sources */,
 				D27B66B1183E1542007555F5 /* STBlockButton.m in Sources */,
