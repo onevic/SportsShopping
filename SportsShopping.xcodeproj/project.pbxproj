@@ -87,6 +87,7 @@
 		72C5ED75183E18D80019672A /* 首页_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED27183E18D80019672A /* 首页_14.png */; };
 		72C5ED7B183E1E430019672A /* STLeftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C5ED7A183E1E430019672A /* STLeftCell.m */; };
 		D254BC9D183E25B100C61DB7 /* sqlite.db in Resources */ = {isa = PBXBuildFile; fileRef = D254BC9C183E25B100C61DB7 /* sqlite.db */; };
+		D254BCA0183E29E500C61DB7 /* STCateDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D254BC9F183E29E500C61DB7 /* STCateDetailsViewController.m */; };
 		D27B667D183E1361007555F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27B667C183E1361007555F5 /* Foundation.framework */; };
 		D27B667F183E1361007555F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27B667E183E1361007555F5 /* CoreGraphics.framework */; };
 		D27B6681183E1361007555F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27B6680183E1361007555F5 /* UIKit.framework */; };
@@ -219,6 +220,8 @@
 		72C5ED79183E1E430019672A /* STLeftCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLeftCell.h; sourceTree = "<group>"; };
 		72C5ED7A183E1E430019672A /* STLeftCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLeftCell.m; sourceTree = "<group>"; };
 		D254BC9C183E25B100C61DB7 /* sqlite.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = sqlite.db; sourceTree = "<group>"; };
+		D254BC9E183E29E500C61DB7 /* STCateDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCateDetailsViewController.h; sourceTree = "<group>"; };
+		D254BC9F183E29E500C61DB7 /* STCateDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCateDetailsViewController.m; sourceTree = "<group>"; };
 		D27B6679183E1361007555F5 /* SportsShopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsShopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27B667C183E1361007555F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D27B667E183E1361007555F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -491,6 +494,8 @@
 			children = (
 				D27B66E9183E164D007555F5 /* STHomeViewController.h */,
 				D27B66EA183E164D007555F5 /* STHomeViewController.m */,
+				D254BC9E183E29E500C61DB7 /* STCateDetailsViewController.h */,
+				D254BC9F183E29E500C61DB7 /* STCateDetailsViewController.m */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -771,6 +776,7 @@
 				D27B66FF183E1CAF007555F5 /* STDataHelper+Database.m in Sources */,
 				D27B66F1183E17A3007555F5 /* STRightViewController.m in Sources */,
 				D27B66CA183E1550007555F5 /* SDWebImagePrefetcher.m in Sources */,
+				D254BCA0183E29E500C61DB7 /* STCateDetailsViewController.m in Sources */,
 				D27B6689183E1361007555F5 /* main.m in Sources */,
 				72C5ED7B183E1E430019672A /* STLeftCell.m in Sources */,
 				D27B66D8183E1562007555F5 /* FMDatabase.m in Sources */,

@@ -16,7 +16,15 @@
 @end
 
 @implementation STHomeViewController
-
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        _allCategories = [[NSMutableArray alloc] init];
+    }
+    return self;
+}
+    
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -32,12 +40,7 @@
 #pragma mark - 下载回调
 - (void)loadAllCategoriesCompleted {
     NSLog(@"下载完了");
-    NSMutableArray *allCategories = [NSMutableArray arrayWithArray:[[STDataHelper sharedInstance] allCategories]];
-    for (STModelCategory *cate in allCategories) {
-        NSLog(@"name:%@", cate.categoryName);
-        NSLog(@"id:%@", cate.categoryId);
-        NSLog(@"subIds:%@", cate.categorySubIds);
-    }
+    [_allCategories addObjectsFromArray:[[STDataHelper sharedInstance] allCategories]];
 }
     
 #pragma mark - 事件响应
@@ -48,7 +51,20 @@
 }
     
 - (void)cateButtonClicked:(UIButton *)button {
-    
+    if (_allCategories.count == 0) {
+        return;
+    }
+    NSArray *namesArray = @[@"", @"运动鞋", @"运动服", @"运动包配", @"运动品牌", @"户外", @"户外品牌", @"健身用品", @"健身品牌"];
+    NSString *touchName = [namesArray objectAtIndex:button.tag];
+    STModelCategory *selectedCategory;
+    for (STModelCategory *cate in _allCategories) {
+        if ([cate.categoryName isEqualToString:touchName])
+        {
+            selectedCategory = cate;
+            break;
+        }
+    }
+    NSLog(@"选中:%@", selectedCategory.categoryName);
 }
 
 // 创建基础UI

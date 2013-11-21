@@ -1,5 +1,5 @@
 //
-//  STHomeViewController.h
+//  STCateDetailsViewController.h
 //  SportsShopping
 //
 //  Created by scott on 13-11-21.
@@ -8,7 +8,6 @@
 
 #import "STBaseViewController.h"
 
-@interface STHomeViewController : STBaseViewController {
-    NSMutableArray *_allCategories;
-}
+@interface STCateDetailsViewController : STBaseViewController
+
 @end
