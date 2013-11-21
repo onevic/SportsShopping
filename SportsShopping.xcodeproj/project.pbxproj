@@ -736,10 +736,7 @@
 				72C5ED66183E18D80019672A /* 运动鞋_23.png in Resources */,
 				72C5ED49183E18D80019672A /* 搜索2_07.png in Resources */,
 				D27B6687183E1361007555F5 /* InfoPlist.strings in Resources */,
-<<<<<<< HEAD
 				D27B66F5183E1A66007555F5 /* sqlite.db in Resources */,
-=======
->>>>>>> 058312259b34a4a85da8cf44f0abdf95fb46b045
 				72C5ED6B183E18D80019672A /* 销量.png in Resources */,
 				72C5ED64183E18D80019672A /* 运动鞋_17.png in Resources */,
 				D27B668F183E1362007555F5 /* Images.xcassets in Resources */,

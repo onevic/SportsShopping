@@ -153,13 +153,10 @@
     [scrollView addSubview:btn8];
 }
 
-<<<<<<< HEAD
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-=======
->>>>>>> 058312259b34a4a85da8cf44f0abdf95fb46b045
 @end
