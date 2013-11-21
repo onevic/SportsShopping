@@ -16,12 +16,14 @@
     NSString *filePath = [NSString stringWithFormat:@"%@/Library/Caches/sqlite.db", NSHomeDirectory()];
     FMDatabase *database = [FMDatabase databaseWithPath:filePath];
     
-    NSString *cateName = [cateDict objectForKey:@""];
-    NSString *cateId = [cateDict objectForKey:@""];
+    NSString *cateName = [cateDict objectForKey:@"Name"];
+    NSString *cateId = [cateDict objectForKey:@"ID"];
+    NSArray *list = [cateDict objectForKey:@"List"];
     if ([database open])
     {
         [database executeUpdate:@"insert into Category values(?,?);", cateName, cateId];
-        for (NSString *cateSubId in [cateDict objectForKey:@""]) {
+        for (NSDictionary *subDict in list) {
+            NSString *cateSubId = [subDict objectForKey:@"ID"];
             [database executeUpdate:@"insert into CategorySubId values(?,?);", cateId, cateSubId];
         }
     }
@@ -34,14 +36,33 @@
 {
     NSString *filePath = [NSString stringWithFormat:@"%@/Library/Caches/sqlite.db", NSHomeDirectory()];
     FMDatabase *database = [FMDatabase databaseWithPath:filePath];
+    NSMutableArray *allCategories = [[NSMutableArray alloc] init];
     if ([database open])
     {
         FMResultSet *rs = [database executeQuery:@"select * from Category;"];
         while ([rs next]) {
             
+            NSString *cateName = [rs stringForColumn:@"name"];
+            NSString *cateId = [rs stringForColumn:@"id"];
+            NSMutableArray *cateSubIds = [[NSMutableArray alloc] init];
+            
+            FMResultSet *resultset = [database executeQuery:@"select * from CategorySubId where categoryId=?;", cateId];
+            while ([resultset next]) {
+                NSString *subId = [resultset stringForColumn:@"subId"];
+                [cateSubIds addObject:subId];
+            }
+            
+            
+            STModelCategory *cate = [[STModelCategory alloc] init];
+            cate.categoryName = cateName;
+            cate.categoryId = cateId;
+            cate.categorySubIds = cateSubIds;
+            
+            [allCategories addObject:cate];
         }
     }
     [database close];
+    return (allCategories.count == 0)?nil:allCategories;
 }
 
 @end

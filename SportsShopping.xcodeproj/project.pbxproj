@@ -86,6 +86,7 @@
 		72C5ED74183E18D80019672A /* 首页_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED26183E18D80019672A /* 首页_12.png */; };
 		72C5ED75183E18D80019672A /* 首页_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED27183E18D80019672A /* 首页_14.png */; };
 		72C5ED7B183E1E430019672A /* STLeftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C5ED7A183E1E430019672A /* STLeftCell.m */; };
+		D254BC9D183E25B100C61DB7 /* sqlite.db in Resources */ = {isa = PBXBuildFile; fileRef = D254BC9C183E25B100C61DB7 /* sqlite.db */; };
 		D27B667D183E1361007555F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27B667C183E1361007555F5 /* Foundation.framework */; };
 		D27B667F183E1361007555F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27B667E183E1361007555F5 /* CoreGraphics.framework */; };
 		D27B6681183E1361007555F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27B6680183E1361007555F5 /* UIKit.framework */; };
@@ -119,7 +120,6 @@
 		D27B66EB183E164D007555F5 /* STHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B66EA183E164D007555F5 /* STHomeViewController.m */; };
 		D27B66EE183E1797007555F5 /* STLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B66ED183E1797007555F5 /* STLeftViewController.m */; };
 		D27B66F1183E17A3007555F5 /* STRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B66F0183E17A3007555F5 /* STRightViewController.m */; };
-		D27B66F5183E1A66007555F5 /* sqlite.db in Resources */ = {isa = PBXBuildFile; fileRef = D27B66F4183E1A66007555F5 /* sqlite.db */; };
 		D27B66F9183E1A95007555F5 /* STDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B66F8183E1A95007555F5 /* STDataHelper.m */; };
 		D27B66FC183E1B03007555F5 /* STDataHelper+Network.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B66FB183E1B03007555F5 /* STDataHelper+Network.m */; };
 		D27B66FF183E1CAF007555F5 /* STDataHelper+Database.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B66FE183E1CAF007555F5 /* STDataHelper+Database.m */; };
@@ -218,6 +218,7 @@
 		72C5ED27183E18D80019672A /* 首页_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页_14.png"; sourceTree = "<group>"; };
 		72C5ED79183E1E430019672A /* STLeftCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLeftCell.h; sourceTree = "<group>"; };
 		72C5ED7A183E1E430019672A /* STLeftCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLeftCell.m; sourceTree = "<group>"; };
+		D254BC9C183E25B100C61DB7 /* sqlite.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = sqlite.db; sourceTree = "<group>"; };
 		D27B6679183E1361007555F5 /* SportsShopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsShopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27B667C183E1361007555F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D27B667E183E1361007555F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -279,7 +280,6 @@
 		D27B66ED183E1797007555F5 /* STLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLeftViewController.m; sourceTree = "<group>"; };
 		D27B66EF183E17A3007555F5 /* STRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRightViewController.h; sourceTree = "<group>"; };
 		D27B66F0183E17A3007555F5 /* STRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRightViewController.m; sourceTree = "<group>"; };
-		D27B66F4183E1A66007555F5 /* sqlite.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = sqlite.db; sourceTree = "<group>"; };
 		D27B66F7183E1A95007555F5 /* STDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDataHelper.h; sourceTree = "<group>"; };
 		D27B66F8183E1A95007555F5 /* STDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDataHelper.m; sourceTree = "<group>"; };
 		D27B66FA183E1B03007555F5 /* STDataHelper+Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STDataHelper+Network.h"; sourceTree = "<group>"; };
@@ -445,7 +445,7 @@
 				D27B66ED183E1797007555F5 /* STLeftViewController.m */,
 				D27B66EF183E17A3007555F5 /* STRightViewController.h */,
 				D27B66F0183E17A3007555F5 /* STRightViewController.m */,
-				D27B66F4183E1A66007555F5 /* sqlite.db */,
+				D254BC9C183E25B100C61DB7 /* sqlite.db */,
 				D27B6700183E1E2C007555F5 /* Model */,
 				D27B66F6183E1A7E007555F5 /* DataHelper */,
 				D27B66E6183E1597007555F5 /* OpenSource */,
@@ -731,12 +731,16 @@
 				72C5ED66183E18D80019672A /* 运动鞋_23.png in Resources */,
 				72C5ED49183E18D80019672A /* 搜索2_07.png in Resources */,
 				D27B6687183E1361007555F5 /* InfoPlist.strings in Resources */,
+<<<<<<< HEAD
 				D27B66F5183E1A66007555F5 /* sqlite.db in Resources */,
+=======
+>>>>>>> 058312259b34a4a85da8cf44f0abdf95fb46b045
 				72C5ED6B183E18D80019672A /* 销量.png in Resources */,
 				72C5ED64183E18D80019672A /* 运动鞋_17.png in Resources */,
 				D27B668F183E1362007555F5 /* Images.xcassets in Resources */,
 				72C5ED55183E18D80019672A /* 运动鞋1_46.png in Resources */,
 				72C5ED52183E18D80019672A /* 购物车_18.png in Resources */,
+				D254BC9D183E25B100C61DB7 /* sqlite.db in Resources */,
 				72C5ED5D183E18D80019672A /* 运动鞋2_20.png in Resources */,
 				72C5ED4F183E18D80019672A /* 购物车_03.png in Resources */,
 				72C5ED6D183E18D80019672A /* 首页1_03.png in Resources */,

@@ -7,6 +7,9 @@
 //
 
 #import "STHomeViewController.h"
+#import "STDataHelper+Network.h"
+#import "STDataHelper+Database.h"
+#import "STModelCategory.h"
 
 @interface STHomeViewController ()
 
@@ -20,6 +23,32 @@
 	// Do any additional setup after loading the view.
     [self createUI];
     [self addScrollView];
+    
+    /*加载所有分类*/
+    [[STDataHelper sharedInstance] loadAllCategories];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(loadAllCategoriesCompleted) name:kNotifyLoadAllCategoryCompleted object:nil];
+}
+    
+#pragma mark - 下载回调
+- (void)loadAllCategoriesCompleted {
+    NSLog(@"下载完了");
+    NSMutableArray *allCategories = [NSMutableArray arrayWithArray:[[STDataHelper sharedInstance] allCategories]];
+    for (STModelCategory *cate in allCategories) {
+        NSLog(@"name:%@", cate.categoryName);
+        NSLog(@"id:%@", cate.categoryId);
+        NSLog(@"subIds:%@", cate.categorySubIds);
+    }
+}
+    
+#pragma mark - 事件响应
+
+// 显示菜单事件
+- (void)showMenu {
+    
+}
+    
+- (void)cateButtonClicked:(UIButton *)button {
+    
 }
 
 // 创建基础UI
@@ -40,12 +69,6 @@
     titleLabel.backgroundColor = [UIColor clearColor];
     titleLabel.textColor = [UIColor whiteColor];
     [self.myNavigationBar addSubview:titleLabel];
-}
-
-// 显示菜单事件
-- (void)showMenu
-{
-    
 }
 
 // 添加首页八个分类
@@ -114,10 +137,13 @@
     [scrollView addSubview:btn8];
 }
 
+<<<<<<< HEAD
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
+=======
+>>>>>>> 058312259b34a4a85da8cf44f0abdf95fb46b045
 @end

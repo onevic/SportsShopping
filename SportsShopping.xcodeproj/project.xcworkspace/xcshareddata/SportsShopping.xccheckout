@@ -5,19 +5,31 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>F9682A4A-532F-49BD-9D49-12DF5152776F</string>
+=======
+	<string>57936AFD-B19C-46F8-B124-B227E93A2324</string>
+>>>>>>> 058312259b34a4a85da8cf44f0abdf95fb46b045
 	<key>IDESourceControlProjectName</key>
 	<string>SportsShopping</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>7BB7CDD7-C5A4-4959-A4A4-ADCE6ACA2C62</key>
+=======
+		<key>0F5837BC-F888-448C-85DA-CA1DC69945DB</key>
+>>>>>>> 058312259b34a4a85da8cf44f0abdf95fb46b045
 		<string>https://github.com/onevic/SportsShopping.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>SportsShopping.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>7BB7CDD7-C5A4-4959-A4A4-ADCE6ACA2C62</key>
+=======
+		<key>0F5837BC-F888-448C-85DA-CA1DC69945DB</key>
+>>>>>>> 058312259b34a4a85da8cf44f0abdf95fb46b045
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +37,22 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
+<<<<<<< HEAD
 	<string>7BB7CDD7-C5A4-4959-A4A4-ADCE6ACA2C62</string>
+=======
+	<string>0F5837BC-F888-448C-85DA-CA1DC69945DB</string>
+>>>>>>> 058312259b34a4a85da8cf44f0abdf95fb46b045
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+<<<<<<< HEAD
 			<string>7BB7CDD7-C5A4-4959-A4A4-ADCE6ACA2C62</string>
+=======
+			<string>0F5837BC-F888-448C-85DA-CA1DC69945DB</string>
+>>>>>>> 058312259b34a4a85da8cf44f0abdf95fb46b045
 			<key>IDESourceControlWCCName</key>
 			<string>SportsShopping</string>
 		</dict>
