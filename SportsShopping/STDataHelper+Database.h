@@ -15,4 +15,9 @@
 
 @interface STDataHelper (DatabaseHome)
 - (NSMutableArray *)allCategories;
+
+- (NSMutableArray *)allItemsWithRelated;
+- (NSMutableArray *)allItemsWithPrice;
+- (NSMutableArray *)allItemsWithAct;
+- (NSMutableArray *)allItemsWithSold;
 @end

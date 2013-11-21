@@ -31,9 +31,11 @@
     /*程序结构*/
     _ddmenu = [[DDMenuController alloc] init];
     STHomeViewController *home = [[STHomeViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:home];
+    
     STLeftViewController *left = [[STLeftViewController alloc] init];
     STRightViewController *right = [[STRightViewController alloc] init];
-    _ddmenu.rootViewController = home;
+    _ddmenu.rootViewController = nav;
     _ddmenu.leftViewController = left;
     _ddmenu.rightViewController = right;
     

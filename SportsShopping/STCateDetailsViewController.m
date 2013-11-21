@@ -8,6 +8,8 @@
 
 #import "STCateDetailsViewController.h"
 #import "STCateDetailsCell.h"
+#import "STModelCategory.h"
+#import "STDataHelper+Network.h"
 
 @interface STCateDetailsViewController ()
 
@@ -23,7 +25,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        self.category = [[STModelCategory alloc] init];
     }
     return self;
 }
@@ -33,6 +35,18 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     [self createUI];
+    
+    /*加载数据*/
+    [[STDataHelper sharedInstance] loadCategoryDetailWithCate:self.category];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(loadCategoryDetailCompleted) name:kNotifyLoadCategoryDetailCompleted object:nil];
+    
+}
+
+#pragma mark - 下载回调
+- (void)loadCategoryDetailCompleted
+{
+    NSLog(@"加载所有商品结束");
+    
 }
 
 #pragma mark - UI

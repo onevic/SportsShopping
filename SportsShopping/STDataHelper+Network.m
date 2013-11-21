@@ -52,10 +52,10 @@
                 for (NSDictionary *itemDict in list) {
                     [self insertItem:itemDict];
                 }
-                /*发通知回调*/
-                [[NSNotificationCenter defaultCenter] postNotificationName:kNotifyLoadCategoryDetailCompleted object:Nil];
             }
         }
+        /*发通知回调*/
+        [[NSNotificationCenter defaultCenter] postNotificationName:kNotifyLoadCategoryDetailCompleted object:Nil];
     }];
     [_operationQueue addOperation:_loadCategoryDetail];
 }

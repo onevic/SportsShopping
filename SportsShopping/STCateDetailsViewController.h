@@ -8,6 +8,7 @@
 
 #import "STBaseViewController.h"
 
+@class STModelCategory;
 @interface STCateDetailsViewController : STBaseViewController <UITableViewDelegate,UITableViewDataSource>
-
+@property (strong, nonatomic) STModelCategory *category;
 @end

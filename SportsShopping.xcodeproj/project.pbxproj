@@ -127,6 +127,9 @@
 		D27B66FF183E1CAF007555F5 /* STDataHelper+Database.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B66FE183E1CAF007555F5 /* STDataHelper+Database.m */; };
 		D27B6703183E1E3D007555F5 /* STModelCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B6702183E1E3D007555F5 /* STModelCategory.m */; };
 		D27B6706183E1E56007555F5 /* STModelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B6705183E1E56007555F5 /* STModelItem.m */; };
+		D2B03227183E32B500E00419 /* STSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B03226183E32B500E00419 /* STSearchViewController.m */; };
+		D2B0322A183E32CA00E00419 /* STItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B03229183E32CA00E00419 /* STItemDetailViewController.m */; };
+		D2B0322E183E32E000E00419 /* STMyFavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B0322D183E32E000E00419 /* STMyFavoriteViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -296,6 +299,12 @@
 		D27B6702183E1E3D007555F5 /* STModelCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STModelCategory.m; sourceTree = "<group>"; };
 		D27B6704183E1E56007555F5 /* STModelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STModelItem.h; sourceTree = "<group>"; };
 		D27B6705183E1E56007555F5 /* STModelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STModelItem.m; sourceTree = "<group>"; };
+		D2B03225183E32B500E00419 /* STSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSearchViewController.h; sourceTree = "<group>"; };
+		D2B03226183E32B500E00419 /* STSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSearchViewController.m; sourceTree = "<group>"; };
+		D2B03228183E32CA00E00419 /* STItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STItemDetailViewController.h; sourceTree = "<group>"; };
+		D2B03229183E32CA00E00419 /* STItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STItemDetailViewController.m; sourceTree = "<group>"; };
+		D2B0322C183E32E000E00419 /* STMyFavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMyFavoriteViewController.h; sourceTree = "<group>"; };
+		D2B0322D183E32E000E00419 /* STMyFavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMyFavoriteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -457,6 +466,8 @@
 				D27B66E6183E1597007555F5 /* OpenSource */,
 				D27B66AC183E1505007555F5 /* Base */,
 				D27B66AB183E14F9007555F5 /* Home */,
+				D2B03224183E32A600E00419 /* Search */,
+				D2B0322B183E32D200E00419 /* MyFav */,
 				D27B668E183E1362007555F5 /* Images.xcassets */,
 				D27B6683183E1361007555F5 /* Supporting Files */,
 			);
@@ -501,6 +512,8 @@
 				D254BC9F183E29E500C61DB7 /* STCateDetailsViewController.m */,
 				72C5ED7C183E2C640019672A /* STCateDetailsCell.h */,
 				72C5ED7D183E2C640019672A /* STCateDetailsCell.m */,
+				D2B03228183E32CA00E00419 /* STItemDetailViewController.h */,
+				D2B03229183E32CA00E00419 /* STItemDetailViewController.m */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -595,6 +608,24 @@
 				D27B6705183E1E56007555F5 /* STModelItem.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		D2B03224183E32A600E00419 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				D2B03225183E32B500E00419 /* STSearchViewController.h */,
+				D2B03226183E32B500E00419 /* STSearchViewController.m */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		D2B0322B183E32D200E00419 /* MyFav */ = {
+			isa = PBXGroup;
+			children = (
+				D2B0322C183E32E000E00419 /* STMyFavoriteViewController.h */,
+				D2B0322D183E32E000E00419 /* STMyFavoriteViewController.m */,
+			);
+			name = MyFav;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -783,6 +814,7 @@
 				D27B66D8183E1562007555F5 /* FMDatabase.m in Sources */,
 				D27B66C9183E1550007555F5 /* SDWebImageManager.m in Sources */,
 				D27B66DB183E1562007555F5 /* FMDatabaseQueue.m in Sources */,
+				D2B03227183E32B500E00419 /* STSearchViewController.m in Sources */,
 				D27B66DC183E1562007555F5 /* FMResultSet.m in Sources */,
 				D27B66EB183E164D007555F5 /* STHomeViewController.m in Sources */,
 				D27B66F9183E1A95007555F5 /* STDataHelper.m in Sources */,
@@ -794,6 +826,7 @@
 				D27B66E5183E1590007555F5 /* STBaseViewController.m in Sources */,
 				D27B66C7183E1550007555F5 /* SDWebImageDecoder.m in Sources */,
 				D27B66DF183E1574007555F5 /* DDMenuController.m in Sources */,
+				D2B0322E183E32E000E00419 /* STMyFavoriteViewController.m in Sources */,
 				D27B66EE183E1797007555F5 /* STLeftViewController.m in Sources */,
 				D27B66CB183E1550007555F5 /* UIButton+WebCache.m in Sources */,
 				D27B66DA183E1562007555F5 /* FMDatabasePool.m in Sources */,
@@ -802,6 +835,7 @@
 				D27B6703183E1E3D007555F5 /* STModelCategory.m in Sources */,
 				D27B6706183E1E56007555F5 /* STModelItem.m in Sources */,
 				D27B66FC183E1B03007555F5 /* STDataHelper+Network.m in Sources */,
+				D2B0322A183E32CA00E00419 /* STItemDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

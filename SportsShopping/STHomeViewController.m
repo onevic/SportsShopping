@@ -10,6 +10,7 @@
 #import "STDataHelper+Network.h"
 #import "STDataHelper+Database.h"
 #import "STModelCategory.h"
+#import "STCateDetailsViewController.h"
 
 @interface STHomeViewController ()
 
@@ -65,6 +66,9 @@
         }
     }
     NSLog(@"选中:%@", selectedCategory.categoryName);
+    STCateDetailsViewController *categoryDetails = [[STCateDetailsViewController alloc] init];
+    categoryDetails.category =  selectedCategory;
+    [self.navigationController pushViewController:categoryDetails animated:YES];
 }
 
 // 创建基础UI
