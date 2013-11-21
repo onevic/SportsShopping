@@ -29,8 +29,9 @@
     
     _myNavigationBar = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, kNavigationBarHeight)];
     [self.view addSubview:_myNavigationBar];
-    _myNavigationBar.backgroundColor = [UIColor brownColor];
+    _myNavigationBar.image = [UIImage imageNamed:@"购物车2_02.png"];
     _myNavigationBar.hidden = YES;
+    _myNavigationBar.userInteractionEnabled = YES;
 }
 
 - (void)viewWillAppear:(BOOL)animated

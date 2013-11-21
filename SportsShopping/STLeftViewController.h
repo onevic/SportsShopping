@@ -8,6 +8,6 @@
 
 #import "STBaseViewController.h"
 
-@interface STLeftViewController : STBaseViewController
+@interface STLeftViewController : STBaseViewController <UITableViewDataSource,UITableViewDelegate>
 
 @end
