@@ -86,6 +86,7 @@
 		72C5ED74183E18D80019672A /* 首页_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED26183E18D80019672A /* 首页_12.png */; };
 		72C5ED75183E18D80019672A /* 首页_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED27183E18D80019672A /* 首页_14.png */; };
 		72C5ED7B183E1E430019672A /* STLeftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C5ED7A183E1E430019672A /* STLeftCell.m */; };
+		72C5ED7E183E2C640019672A /* STCateDetailsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C5ED7D183E2C640019672A /* STCateDetailsCell.m */; };
 		D254BC9D183E25B100C61DB7 /* sqlite.db in Resources */ = {isa = PBXBuildFile; fileRef = D254BC9C183E25B100C61DB7 /* sqlite.db */; };
 		D254BCA0183E29E500C61DB7 /* STCateDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D254BC9F183E29E500C61DB7 /* STCateDetailsViewController.m */; };
 		D27B667D183E1361007555F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27B667C183E1361007555F5 /* Foundation.framework */; };
@@ -219,6 +220,8 @@
 		72C5ED27183E18D80019672A /* 首页_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页_14.png"; sourceTree = "<group>"; };
 		72C5ED79183E1E430019672A /* STLeftCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLeftCell.h; sourceTree = "<group>"; };
 		72C5ED7A183E1E430019672A /* STLeftCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLeftCell.m; sourceTree = "<group>"; };
+		72C5ED7C183E2C640019672A /* STCateDetailsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCateDetailsCell.h; sourceTree = "<group>"; };
+		72C5ED7D183E2C640019672A /* STCateDetailsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCateDetailsCell.m; sourceTree = "<group>"; };
 		D254BC9C183E25B100C61DB7 /* sqlite.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = sqlite.db; sourceTree = "<group>"; };
 		D254BC9E183E29E500C61DB7 /* STCateDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCateDetailsViewController.h; sourceTree = "<group>"; };
 		D254BC9F183E29E500C61DB7 /* STCateDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCateDetailsViewController.m; sourceTree = "<group>"; };
@@ -496,6 +499,8 @@
 				D27B66EA183E164D007555F5 /* STHomeViewController.m */,
 				D254BC9E183E29E500C61DB7 /* STCateDetailsViewController.h */,
 				D254BC9F183E29E500C61DB7 /* STCateDetailsViewController.m */,
+				72C5ED7C183E2C640019672A /* STCateDetailsCell.h */,
+				72C5ED7D183E2C640019672A /* STCateDetailsCell.m */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -736,7 +741,6 @@
 				72C5ED66183E18D80019672A /* 运动鞋_23.png in Resources */,
 				72C5ED49183E18D80019672A /* 搜索2_07.png in Resources */,
 				D27B6687183E1361007555F5 /* InfoPlist.strings in Resources */,
-				D27B66F5183E1A66007555F5 /* sqlite.db in Resources */,
 				72C5ED6B183E18D80019672A /* 销量.png in Resources */,
 				72C5ED64183E18D80019672A /* 运动鞋_17.png in Resources */,
 				D27B668F183E1362007555F5 /* Images.xcassets in Resources */,
@@ -786,6 +790,7 @@
 				D27B668D183E1361007555F5 /* STAppDelegate.m in Sources */,
 				D27B66B1183E1542007555F5 /* STBlockButton.m in Sources */,
 				D27B66D9183E1562007555F5 /* FMDatabaseAdditions.m in Sources */,
+				72C5ED7E183E2C640019672A /* STCateDetailsCell.m in Sources */,
 				D27B66E5183E1590007555F5 /* STBaseViewController.m in Sources */,
 				D27B66C7183E1550007555F5 /* SDWebImageDecoder.m in Sources */,
 				D27B66DF183E1574007555F5 /* DDMenuController.m in Sources */,
