@@ -10,6 +10,7 @@
 
 @interface STDataHelper (Database)
 - (void)insertCategory:(NSDictionary *)cateDict;
+- (void)insertItem:(NSDictionary *)itemDict;
 @end
 
 @interface STDataHelper (DatabaseHome)

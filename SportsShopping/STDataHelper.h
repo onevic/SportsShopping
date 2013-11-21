@@ -12,6 +12,7 @@
 {
     NSOperationQueue *_operationQueue;
     NSBlockOperation *_loadAllCategories;
+    NSBlockOperation *_loadCategoryDetail;
 }
 + (id)sharedInstance;
 @end

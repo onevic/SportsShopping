@@ -21,10 +21,59 @@
     NSArray *list = [cateDict objectForKey:@"List"];
     if ([database open])
     {
-        [database executeUpdate:@"insert into Category values(?,?);", cateName, cateId];
-        for (NSDictionary *subDict in list) {
-            NSString *cateSubId = [subDict objectForKey:@"ID"];
-            [database executeUpdate:@"insert into CategorySubId values(?,?);", cateId, cateSubId];
+        /*如果存在*/
+        BOOL isExist = NO;
+        FMResultSet *rs = [database executeQuery:@"select * from Category where id=?;", cateId];
+        while ([rs next]) {
+            isExist = YES;
+            break;
+        }
+        /*不存在才插入*/
+        if (!isExist)
+        {
+            [database executeUpdate:@"insert into Category values(?,?);", cateName, cateId];
+            for (NSDictionary *subDict in list) {
+                NSString *cateSubId = [subDict objectForKey:@"ID"];
+                [database executeUpdate:@"insert into CategorySubId values(?,?);", cateId, cateSubId];
+            }
+        }
+    }
+    [database close];
+}
+
+- (void)insertItem:(NSDictionary *)itemDict
+{
+    NSString *filePath = [NSString stringWithFormat:@"%@/Library/Caches/sqlite.db", NSHomeDirectory()];
+    FMDatabase *database = [FMDatabase databaseWithPath:filePath];
+    /*
+     @property (nonatomic, strong) NSString *itemName;
+     @property (nonatomic, strong) NSString *itemFavs;
+     @property (nonatomic, strong) NSString *itemPrice;
+     @property (nonatomic, strong) NSString *itemUrl;
+     @property (nonatomic, strong) NSString *itemAct; //销量
+     @property (nonatomic, strong) NSString *itemId;
+     @property (nonatomic, strong) NSString *itemImage;
+     */
+    NSString *itemName = [itemDict objectForKey:@"name"];
+    NSString *itemFavs = [itemDict objectForKey:@"favs"];
+    NSString *itemPrice = [itemDict objectForKey:@"price"];
+    NSString *itemUrl = [itemDict objectForKey:@"url"];
+    NSString *itemAct = [itemDict objectForKey:@"act"];
+    NSString *itemId = [itemDict objectForKey:@"ID"];
+    NSString *itemImage = [itemDict objectForKey:@"img2"];
+    if ([database open])
+    {
+        /*判断是否存在*/
+        BOOL isExist = NO;
+        FMResultSet *rs = [database executeQuery:@"select * from Item where id=?;", itemId];
+        while ([rs next])
+        {
+            isExist = YES;
+            break;
+        }
+        if (!isExist)
+        {
+            [database executeUpdate:@"insert into Item values(?,?,?,?,?,?,?);", itemName, itemFavs, itemPrice, itemUrl, itemAct, itemId, itemImage];
         }
     }
     [database close];

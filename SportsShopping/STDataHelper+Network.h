@@ -12,7 +12,10 @@
 
 @end
 
+@class STModelCategory;
 #define kNotifyLoadAllCategoryCompleted @"kNotifyLoadAllCategoryCompleted"
+#define kNotifyLoadCategoryDetailCompleted @"kNotifyLoadCategoryDetailCompleted"
 @interface STDataHelper (NetworkHome)
 - (void)loadAllCategories;
+- (void)loadCategoryDetailWithCate:(STModelCategory *)cate;
 @end
