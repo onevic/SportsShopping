@@ -38,6 +38,8 @@
 		D27B66E5183E1590007555F5 /* STBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B66E4183E1590007555F5 /* STBaseViewController.m */; };
 		D27B66E8183E1614007555F5 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D27B66E7183E1614007555F5 /* libsqlite3.0.dylib */; };
 		D27B66EB183E164D007555F5 /* STHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B66EA183E164D007555F5 /* STHomeViewController.m */; };
+		D27B66EE183E1797007555F5 /* STLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B66ED183E1797007555F5 /* STLeftViewController.m */; };
+		D27B66F1183E17A3007555F5 /* STRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B66F0183E17A3007555F5 /* STRightViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +110,10 @@
 		D27B66E7183E1614007555F5 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		D27B66E9183E164D007555F5 /* STHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHomeViewController.h; sourceTree = "<group>"; };
 		D27B66EA183E164D007555F5 /* STHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STHomeViewController.m; sourceTree = "<group>"; };
+		D27B66EC183E1797007555F5 /* STLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLeftViewController.h; sourceTree = "<group>"; };
+		D27B66ED183E1797007555F5 /* STLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLeftViewController.m; sourceTree = "<group>"; };
+		D27B66EF183E17A3007555F5 /* STRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRightViewController.h; sourceTree = "<group>"; };
+		D27B66F0183E17A3007555F5 /* STRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRightViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +177,10 @@
 			children = (
 				D27B668B183E1361007555F5 /* STAppDelegate.h */,
 				D27B668C183E1361007555F5 /* STAppDelegate.m */,
+				D27B66EC183E1797007555F5 /* STLeftViewController.h */,
+				D27B66ED183E1797007555F5 /* STLeftViewController.m */,
+				D27B66EF183E17A3007555F5 /* STRightViewController.h */,
+				D27B66F0183E17A3007555F5 /* STRightViewController.m */,
 				D27B66E6183E1597007555F5 /* OpenSource */,
 				D27B66AC183E1505007555F5 /* Base */,
 				D27B66AB183E14F9007555F5 /* Home */,
@@ -384,6 +394,7 @@
 			files = (
 				D27B66E2183E1587007555F5 /* NSString+URLEncoding.m in Sources */,
 				D27B66CC183E1550007555F5 /* UIImageView+WebCache.m in Sources */,
+				D27B66F1183E17A3007555F5 /* STRightViewController.m in Sources */,
 				D27B66CA183E1550007555F5 /* SDWebImagePrefetcher.m in Sources */,
 				D27B6689183E1361007555F5 /* main.m in Sources */,
 				D27B66D8183E1562007555F5 /* FMDatabase.m in Sources */,
@@ -398,6 +409,7 @@
 				D27B66E5183E1590007555F5 /* STBaseViewController.m in Sources */,
 				D27B66C7183E1550007555F5 /* SDWebImageDecoder.m in Sources */,
 				D27B66DF183E1574007555F5 /* DDMenuController.m in Sources */,
+				D27B66EE183E1797007555F5 /* STLeftViewController.m in Sources */,
 				D27B66CB183E1550007555F5 /* UIButton+WebCache.m in Sources */,
 				D27B66DA183E1562007555F5 /* FMDatabasePool.m in Sources */,
 				D27B66C8183E1550007555F5 /* SDWebImageDownloader.m in Sources */,
