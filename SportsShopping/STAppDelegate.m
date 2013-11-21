@@ -18,7 +18,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    
+    NSLog(@"%@", NSHomeDirectory());
     /*保证数据库存在*/
     NSFileManager *fileManager = [NSFileManager defaultManager];
     NSString *filePath = [NSString stringWithFormat:@"%@/Library/Caches/sqlite.db", NSHomeDirectory()];
