@@ -141,6 +141,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72C5ECD8183E17390019672A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		D27B6670183E1361007555F5 = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +182,7 @@
 		D27B6682183E1361007555F5 /* SportsShopping */ = {
 			isa = PBXGroup;
 			children = (
+				72C5ECD8183E17390019672A /* Images */,
 				D27B668B183E1361007555F5 /* STAppDelegate.h */,
 				D27B668C183E1361007555F5 /* STAppDelegate.m */,
 				D27B66EC183E1797007555F5 /* STLeftViewController.h */,
