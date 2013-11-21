@@ -87,6 +87,14 @@
 		72C5ED75183E18D80019672A /* 首页_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED27183E18D80019672A /* 首页_14.png */; };
 		72C5ED7B183E1E430019672A /* STLeftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C5ED7A183E1E430019672A /* STLeftCell.m */; };
 		72C5ED7E183E2C640019672A /* STCateDetailsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C5ED7D183E2C640019672A /* STCateDetailsCell.m */; };
+		72C5ED87183E32290019672A /* btn1_hl.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED7F183E32290019672A /* btn1_hl.png */; };
+		72C5ED88183E32290019672A /* btn1.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED80183E32290019672A /* btn1.png */; };
+		72C5ED89183E32290019672A /* btn2_hl.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED81183E32290019672A /* btn2_hl.png */; };
+		72C5ED8A183E32290019672A /* btn2.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED82183E32290019672A /* btn2.png */; };
+		72C5ED8B183E32290019672A /* btn3_hl.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED83183E32290019672A /* btn3_hl.png */; };
+		72C5ED8C183E32290019672A /* btn3.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED84183E32290019672A /* btn3.png */; };
+		72C5ED8D183E32290019672A /* btn4_hl.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED85183E32290019672A /* btn4_hl.png */; };
+		72C5ED8E183E32290019672A /* btn4.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED86183E32290019672A /* btn4.png */; };
 		D254BC9D183E25B100C61DB7 /* sqlite.db in Resources */ = {isa = PBXBuildFile; fileRef = D254BC9C183E25B100C61DB7 /* sqlite.db */; };
 		D254BCA0183E29E500C61DB7 /* STCateDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D254BC9F183E29E500C61DB7 /* STCateDetailsViewController.m */; };
 		D27B667D183E1361007555F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27B667C183E1361007555F5 /* Foundation.framework */; };
@@ -225,6 +233,14 @@
 		72C5ED7A183E1E430019672A /* STLeftCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLeftCell.m; sourceTree = "<group>"; };
 		72C5ED7C183E2C640019672A /* STCateDetailsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCateDetailsCell.h; sourceTree = "<group>"; };
 		72C5ED7D183E2C640019672A /* STCateDetailsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCateDetailsCell.m; sourceTree = "<group>"; };
+		72C5ED7F183E32290019672A /* btn1_hl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn1_hl.png; sourceTree = "<group>"; };
+		72C5ED80183E32290019672A /* btn1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn1.png; sourceTree = "<group>"; };
+		72C5ED81183E32290019672A /* btn2_hl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn2_hl.png; sourceTree = "<group>"; };
+		72C5ED82183E32290019672A /* btn2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn2.png; sourceTree = "<group>"; };
+		72C5ED83183E32290019672A /* btn3_hl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn3_hl.png; sourceTree = "<group>"; };
+		72C5ED84183E32290019672A /* btn3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn3.png; sourceTree = "<group>"; };
+		72C5ED85183E32290019672A /* btn4_hl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn4_hl.png; sourceTree = "<group>"; };
+		72C5ED86183E32290019672A /* btn4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn4.png; sourceTree = "<group>"; };
 		D254BC9C183E25B100C61DB7 /* sqlite.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = sqlite.db; sourceTree = "<group>"; };
 		D254BC9E183E29E500C61DB7 /* STCateDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCateDetailsViewController.h; sourceTree = "<group>"; };
 		D254BC9F183E29E500C61DB7 /* STCateDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCateDetailsViewController.m; sourceTree = "<group>"; };
@@ -335,6 +351,14 @@
 		72C5ECD9183E18D80019672A /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				72C5ED7F183E32290019672A /* btn1_hl.png */,
+				72C5ED80183E32290019672A /* btn1.png */,
+				72C5ED81183E32290019672A /* btn2_hl.png */,
+				72C5ED82183E32290019672A /* btn2.png */,
+				72C5ED83183E32290019672A /* btn3_hl.png */,
+				72C5ED84183E32290019672A /* btn3.png */,
+				72C5ED85183E32290019672A /* btn4_hl.png */,
+				72C5ED86183E32290019672A /* btn4.png */,
 				72C5ECDA183E18D80019672A /* 人气.png */,
 				72C5ECDB183E18D80019672A /* 价格.png */,
 				72C5ECDC183E18D80019672A /* 商品图片.png */,
@@ -709,6 +733,7 @@
 				72C5ED58183E18D80019672A /* 运动鞋2_07.png in Resources */,
 				72C5ED2C183E18D80019672A /* 商品图片大小.png in Resources */,
 				72C5ED3B183E18D80019672A /* 图片大小.png in Resources */,
+				72C5ED8C183E32290019672A /* btn3.png in Resources */,
 				72C5ED73183E18D80019672A /* 首页_10.png in Resources */,
 				72C5ED40183E18D80019672A /* 左滑_06.png in Resources */,
 				72C5ED3D183E18D80019672A /* 左滑-背景.png in Resources */,
@@ -716,6 +741,7 @@
 				72C5ED5B183E18D80019672A /* 运动鞋2_14.png in Resources */,
 				72C5ED5F183E18D80019672A /* 运动鞋_03.png in Resources */,
 				72C5ED4C183E18D80019672A /* 搜索_10.png in Resources */,
+				72C5ED87183E32290019672A /* btn1_hl.png in Resources */,
 				72C5ED2F183E18D80019672A /* 商品详情-bg.png in Resources */,
 				72C5ED41183E18D80019672A /* 左滑_09.png in Resources */,
 				72C5ED74183E18D80019672A /* 首页_12.png in Resources */,
@@ -725,11 +751,13 @@
 				72C5ED5C183E18D80019672A /* 运动鞋2_17.png in Resources */,
 				72C5ED3C183E18D80019672A /* 图片背景大小.png in Resources */,
 				72C5ED2E183E18D80019672A /* 商品大背景框.png in Resources */,
+				72C5ED8B183E32290019672A /* btn3_hl.png in Resources */,
 				72C5ED31183E18D80019672A /* 商品详情1_03.png in Resources */,
 				72C5ED56183E18D80019672A /* 运动鞋2_02.png in Resources */,
 				72C5ED69183E18D80019672A /* 运动鞋_42.png in Resources */,
 				72C5ED43183E18D80019672A /* 左滑_13.png in Resources */,
 				72C5ED29183E18D80019672A /* 价格.png in Resources */,
+				72C5ED89183E32290019672A /* btn2_hl.png in Resources */,
 				72C5ED35183E18D80019672A /* 商品详情_03_03.png in Resources */,
 				72C5ED37183E18D80019672A /* 商品详情_14.png in Resources */,
 				72C5ED4B183E18D80019672A /* 搜索_03.png in Resources */,
@@ -741,6 +769,7 @@
 				72C5ED2A183E18D80019672A /* 商品图片.png in Resources */,
 				72C5ED44183E18D80019672A /* 左滑_16.png in Resources */,
 				72C5ED50183E18D80019672A /* 购物车_06.png in Resources */,
+				72C5ED8D183E32290019672A /* btn4_hl.png in Resources */,
 				72C5ED54183E18D80019672A /* 购物车bg.png in Resources */,
 				72C5ED33183E18D80019672A /* 商品详情_03 (3).png in Resources */,
 				72C5ED47183E18D80019672A /* 我喜欢的_10.png in Resources */,
@@ -757,8 +786,10 @@
 				72C5ED36183E18D80019672A /* 商品详情_06.png in Resources */,
 				72C5ED38183E18D80019672A /* 商品详情_17.png in Resources */,
 				72C5ED57183E18D80019672A /* 运动鞋2_05.png in Resources */,
+				72C5ED88183E32290019672A /* btn1.png in Resources */,
 				72C5ED60183E18D80019672A /* 运动鞋_06.png in Resources */,
 				72C5ED59183E18D80019672A /* 运动鞋2_09.png in Resources */,
+				72C5ED8E183E32290019672A /* btn4.png in Resources */,
 				72C5ED5E183E18D80019672A /* 运动鞋2_23.png in Resources */,
 				72C5ED46183E18D80019672A /* 我喜欢的_03.png in Resources */,
 				72C5ED62183E18D80019672A /* 运动鞋_13.png in Resources */,
@@ -777,6 +808,7 @@
 				D27B668F183E1362007555F5 /* Images.xcassets in Resources */,
 				72C5ED55183E18D80019672A /* 运动鞋1_46.png in Resources */,
 				72C5ED52183E18D80019672A /* 购物车_18.png in Resources */,
+				72C5ED8A183E32290019672A /* btn2.png in Resources */,
 				D254BC9D183E25B100C61DB7 /* sqlite.db in Resources */,
 				72C5ED5D183E18D80019672A /* 运动鞋2_20.png in Resources */,
 				72C5ED4F183E18D80019672A /* 购物车_03.png in Resources */,

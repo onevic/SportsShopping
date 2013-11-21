@@ -62,9 +62,9 @@
     [self.myNavigationBar addSubview:titleLabel];
     
     // 选项按钮
-    UIView *topView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 43)];
+    UIView *topView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, 43)];
     [self.view addSubview:topView];
-    _topImageView= [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 43)];
+    _topImageView= [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, 43)];
     _topImageView.image = [UIImage imageNamed:@"相关.png"];
     [topView addSubview:_topImageView];
     
@@ -75,8 +75,8 @@
     UIButton *btn1 = [UIButton buttonWithType:UIButtonTypeCustom];
     btn1.tag = 101;
     btn1.frame = CGRectMake(13, 11.5, 54, 19.5);
-    [btn1 setImage:[UIImage imageNamed:@"运动鞋1_03.png"] forState:UIControlStateNormal];
-    [btn1 setImage:[UIImage imageNamed:@"运动鞋_03nmb.png"] forState:UIControlStateSelected];
+    [btn1 setImage:[UIImage imageNamed:@"btn1.png"] forState:UIControlStateNormal];
+    [btn1 setImage:[UIImage imageNamed:@"btn1_hl.png"] forState:UIControlStateSelected];
     [btn1 addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
     [topView addSubview:btn1];
     [_btnArray addObject:btn1];
@@ -85,8 +85,8 @@
     UIButton *btn2 = [UIButton buttonWithType:UIButtonTypeCustom];
     btn2.tag = 102;
     btn2.frame = CGRectMake(93, 11.5, 54, 19.5);
-    [btn2 setImage:[UIImage imageNamed:@"运动鞋_05.png"] forState:UIControlStateNormal];
-    [btn2 setImage:[UIImage imageNamed:@"运动鞋1_05.png"] forState:UIControlStateSelected];
+    [btn2 setImage:[UIImage imageNamed:@"btn2.png"] forState:UIControlStateNormal];
+    [btn2 setImage:[UIImage imageNamed:@"btn2_hl.png"] forState:UIControlStateSelected];
     [btn2 addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
     [topView addSubview:btn2];
     [_btnArray addObject:btn2];
@@ -94,8 +94,8 @@
     UIButton *btn3 = [UIButton buttonWithType:UIButtonTypeCustom];
     btn3.tag = 103;
     btn3.frame = CGRectMake(173, 11.5, 54, 19.5);
-    [btn3 setImage:[UIImage imageNamed:@"运动鞋_07.png"] forState:UIControlStateNormal];
-    [btn3 setImage:[UIImage imageNamed:@"运动鞋1_07.png"] forState:UIControlStateSelected];
+    [btn3 setImage:[UIImage imageNamed:@"btn3.png"] forState:UIControlStateNormal];
+    [btn3 setImage:[UIImage imageNamed:@"btn3_hl.png"] forState:UIControlStateSelected];
     [btn3 addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
     [topView addSubview:btn3];
     [_btnArray addObject:btn3];
@@ -103,8 +103,8 @@
     UIButton *btn4 = [UIButton buttonWithType:UIButtonTypeCustom];
     btn4.tag = 104;
     btn4.frame = CGRectMake(253, 11.5, 54, 19.5);
-    [btn4 setImage:[UIImage imageNamed:@"运动鞋_09.png"] forState:UIControlStateNormal];
-    [btn4 setImage:[UIImage imageNamed:@"运动鞋1_09.png"] forState:UIControlStateSelected];
+    [btn4 setImage:[UIImage imageNamed:@"btn4.png"] forState:UIControlStateNormal];
+    [btn4 setImage:[UIImage imageNamed:@"btn4_hl.png"] forState:UIControlStateSelected];
     [btn4 addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
     [topView addSubview:btn4];
     [_btnArray addObject:btn4];
