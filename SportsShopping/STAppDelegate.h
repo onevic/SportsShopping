@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class DDMenuController;
 @interface STAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) DDMenuController *ddmenu;
 
 @end

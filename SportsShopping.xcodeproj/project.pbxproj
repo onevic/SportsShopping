@@ -40,6 +40,12 @@
 		D27B66EB183E164D007555F5 /* STHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B66EA183E164D007555F5 /* STHomeViewController.m */; };
 		D27B66EE183E1797007555F5 /* STLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B66ED183E1797007555F5 /* STLeftViewController.m */; };
 		D27B66F1183E17A3007555F5 /* STRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B66F0183E17A3007555F5 /* STRightViewController.m */; };
+		D27B66F5183E1A66007555F5 /* sqlite.db in Resources */ = {isa = PBXBuildFile; fileRef = D27B66F4183E1A66007555F5 /* sqlite.db */; };
+		D27B66F9183E1A95007555F5 /* STDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B66F8183E1A95007555F5 /* STDataHelper.m */; };
+		D27B66FC183E1B03007555F5 /* STDataHelper+Network.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B66FB183E1B03007555F5 /* STDataHelper+Network.m */; };
+		D27B66FF183E1CAF007555F5 /* STDataHelper+Database.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B66FE183E1CAF007555F5 /* STDataHelper+Database.m */; };
+		D27B6703183E1E3D007555F5 /* STModelCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B6702183E1E3D007555F5 /* STModelCategory.m */; };
+		D27B6706183E1E56007555F5 /* STModelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B6705183E1E56007555F5 /* STModelItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +120,17 @@
 		D27B66ED183E1797007555F5 /* STLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLeftViewController.m; sourceTree = "<group>"; };
 		D27B66EF183E17A3007555F5 /* STRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRightViewController.h; sourceTree = "<group>"; };
 		D27B66F0183E17A3007555F5 /* STRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRightViewController.m; sourceTree = "<group>"; };
+		D27B66F4183E1A66007555F5 /* sqlite.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = sqlite.db; sourceTree = "<group>"; };
+		D27B66F7183E1A95007555F5 /* STDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDataHelper.h; sourceTree = "<group>"; };
+		D27B66F8183E1A95007555F5 /* STDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDataHelper.m; sourceTree = "<group>"; };
+		D27B66FA183E1B03007555F5 /* STDataHelper+Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STDataHelper+Network.h"; sourceTree = "<group>"; };
+		D27B66FB183E1B03007555F5 /* STDataHelper+Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STDataHelper+Network.m"; sourceTree = "<group>"; };
+		D27B66FD183E1CAF007555F5 /* STDataHelper+Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STDataHelper+Database.h"; sourceTree = "<group>"; };
+		D27B66FE183E1CAF007555F5 /* STDataHelper+Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STDataHelper+Database.m"; sourceTree = "<group>"; };
+		D27B6701183E1E3D007555F5 /* STModelCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STModelCategory.h; sourceTree = "<group>"; };
+		D27B6702183E1E3D007555F5 /* STModelCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STModelCategory.m; sourceTree = "<group>"; };
+		D27B6704183E1E56007555F5 /* STModelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STModelItem.h; sourceTree = "<group>"; };
+		D27B6705183E1E56007555F5 /* STModelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STModelItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +206,9 @@
 				D27B66ED183E1797007555F5 /* STLeftViewController.m */,
 				D27B66EF183E17A3007555F5 /* STRightViewController.h */,
 				D27B66F0183E17A3007555F5 /* STRightViewController.m */,
+				D27B66F4183E1A66007555F5 /* sqlite.db */,
+				D27B6700183E1E2C007555F5 /* Model */,
+				D27B66F6183E1A7E007555F5 /* DataHelper */,
 				D27B66E6183E1597007555F5 /* OpenSource */,
 				D27B66AC183E1505007555F5 /* Base */,
 				D27B66AB183E14F9007555F5 /* Home */,
@@ -304,6 +324,30 @@
 			name = OpenSource;
 			sourceTree = "<group>";
 		};
+		D27B66F6183E1A7E007555F5 /* DataHelper */ = {
+			isa = PBXGroup;
+			children = (
+				D27B66F7183E1A95007555F5 /* STDataHelper.h */,
+				D27B66F8183E1A95007555F5 /* STDataHelper.m */,
+				D27B66FA183E1B03007555F5 /* STDataHelper+Network.h */,
+				D27B66FB183E1B03007555F5 /* STDataHelper+Network.m */,
+				D27B66FD183E1CAF007555F5 /* STDataHelper+Database.h */,
+				D27B66FE183E1CAF007555F5 /* STDataHelper+Database.m */,
+			);
+			name = DataHelper;
+			sourceTree = "<group>";
+		};
+		D27B6700183E1E2C007555F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D27B6701183E1E3D007555F5 /* STModelCategory.h */,
+				D27B6702183E1E3D007555F5 /* STModelCategory.m */,
+				D27B6704183E1E56007555F5 /* STModelItem.h */,
+				D27B6705183E1E56007555F5 /* STModelItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -381,6 +425,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D27B6687183E1361007555F5 /* InfoPlist.strings in Resources */,
+				D27B66F5183E1A66007555F5 /* sqlite.db in Resources */,
 				D27B668F183E1362007555F5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +447,7 @@
 			files = (
 				D27B66E2183E1587007555F5 /* NSString+URLEncoding.m in Sources */,
 				D27B66CC183E1550007555F5 /* UIImageView+WebCache.m in Sources */,
+				D27B66FF183E1CAF007555F5 /* STDataHelper+Database.m in Sources */,
 				D27B66F1183E17A3007555F5 /* STRightViewController.m in Sources */,
 				D27B66CA183E1550007555F5 /* SDWebImagePrefetcher.m in Sources */,
 				D27B6689183E1361007555F5 /* main.m in Sources */,
@@ -410,6 +456,7 @@
 				D27B66DB183E1562007555F5 /* FMDatabaseQueue.m in Sources */,
 				D27B66DC183E1562007555F5 /* FMResultSet.m in Sources */,
 				D27B66EB183E164D007555F5 /* STHomeViewController.m in Sources */,
+				D27B66F9183E1A95007555F5 /* STDataHelper.m in Sources */,
 				D27B66B2183E1542007555F5 /* UIView+Position.m in Sources */,
 				D27B668D183E1361007555F5 /* STAppDelegate.m in Sources */,
 				D27B66B1183E1542007555F5 /* STBlockButton.m in Sources */,
@@ -422,6 +469,9 @@
 				D27B66DA183E1562007555F5 /* FMDatabasePool.m in Sources */,
 				D27B66C8183E1550007555F5 /* SDWebImageDownloader.m in Sources */,
 				D27B66C6183E1550007555F5 /* SDImageCache.m in Sources */,
+				D27B6703183E1E3D007555F5 /* STModelCategory.m in Sources */,
+				D27B6706183E1E56007555F5 /* STModelItem.m in Sources */,
+				D27B66FC183E1B03007555F5 /* STDataHelper+Network.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
