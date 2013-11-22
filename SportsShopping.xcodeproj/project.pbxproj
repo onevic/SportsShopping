@@ -54,24 +54,9 @@
 		72C5ED54183E18D80019672A /* 购物车bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED06183E18D80019672A /* 购物车bg.png */; };
 		72C5ED55183E18D80019672A /* 运动鞋1_46.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED07183E18D80019672A /* 运动鞋1_46.png */; };
 		72C5ED56183E18D80019672A /* 运动鞋2_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED08183E18D80019672A /* 运动鞋2_02.png */; };
-		72C5ED57183E18D80019672A /* 运动鞋2_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED09183E18D80019672A /* 运动鞋2_05.png */; };
-		72C5ED58183E18D80019672A /* 运动鞋2_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED0A183E18D80019672A /* 运动鞋2_07.png */; };
-		72C5ED59183E18D80019672A /* 运动鞋2_09.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED0B183E18D80019672A /* 运动鞋2_09.png */; };
 		72C5ED5A183E18D80019672A /* 运动鞋2_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED0C183E18D80019672A /* 运动鞋2_11.png */; };
-		72C5ED5B183E18D80019672A /* 运动鞋2_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED0D183E18D80019672A /* 运动鞋2_14.png */; };
-		72C5ED5C183E18D80019672A /* 运动鞋2_17.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED0E183E18D80019672A /* 运动鞋2_17.png */; };
 		72C5ED5D183E18D80019672A /* 运动鞋2_20.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED0F183E18D80019672A /* 运动鞋2_20.png */; };
-		72C5ED5E183E18D80019672A /* 运动鞋2_23.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED10183E18D80019672A /* 运动鞋2_23.png */; };
 		72C5ED5F183E18D80019672A /* 运动鞋_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED11183E18D80019672A /* 运动鞋_03.png */; };
-		72C5ED60183E18D80019672A /* 运动鞋_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED12183E18D80019672A /* 运动鞋_06.png */; };
-		72C5ED61183E18D80019672A /* 运动鞋_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED13183E18D80019672A /* 运动鞋_11.png */; };
-		72C5ED62183E18D80019672A /* 运动鞋_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED14183E18D80019672A /* 运动鞋_13.png */; };
-		72C5ED63183E18D80019672A /* 运动鞋_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED15183E18D80019672A /* 运动鞋_15.png */; };
-		72C5ED64183E18D80019672A /* 运动鞋_17.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED16183E18D80019672A /* 运动鞋_17.png */; };
-		72C5ED65183E18D80019672A /* 运动鞋_20.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED17183E18D80019672A /* 运动鞋_20.png */; };
-		72C5ED66183E18D80019672A /* 运动鞋_23.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED18183E18D80019672A /* 运动鞋_23.png */; };
-		72C5ED67183E18D80019672A /* 运动鞋_26.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED19183E18D80019672A /* 运动鞋_26.png */; };
-		72C5ED68183E18D80019672A /* 运动鞋_29.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED1A183E18D80019672A /* 运动鞋_29.png */; };
 		72C5ED69183E18D80019672A /* 运动鞋_42.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED1B183E18D80019672A /* 运动鞋_42.png */; };
 		72C5ED6A183E18D80019672A /* 运动鞋_52.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED1C183E18D80019672A /* 运动鞋_52.png */; };
 		72C5ED6B183E18D80019672A /* 销量.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED1D183E18D80019672A /* 销量.png */; };
@@ -201,24 +186,9 @@
 		72C5ED06183E18D80019672A /* 购物车bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "购物车bg.png"; sourceTree = "<group>"; };
 		72C5ED07183E18D80019672A /* 运动鞋1_46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动鞋1_46.png"; sourceTree = "<group>"; };
 		72C5ED08183E18D80019672A /* 运动鞋2_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动鞋2_02.png"; sourceTree = "<group>"; };
-		72C5ED09183E18D80019672A /* 运动鞋2_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动鞋2_05.png"; sourceTree = "<group>"; };
-		72C5ED0A183E18D80019672A /* 运动鞋2_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动鞋2_07.png"; sourceTree = "<group>"; };
-		72C5ED0B183E18D80019672A /* 运动鞋2_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动鞋2_09.png"; sourceTree = "<group>"; };
 		72C5ED0C183E18D80019672A /* 运动鞋2_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动鞋2_11.png"; sourceTree = "<group>"; };
-		72C5ED0D183E18D80019672A /* 运动鞋2_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动鞋2_14.png"; sourceTree = "<group>"; };
-		72C5ED0E183E18D80019672A /* 运动鞋2_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动鞋2_17.png"; sourceTree = "<group>"; };
 		72C5ED0F183E18D80019672A /* 运动鞋2_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动鞋2_20.png"; sourceTree = "<group>"; };
-		72C5ED10183E18D80019672A /* 运动鞋2_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动鞋2_23.png"; sourceTree = "<group>"; };
 		72C5ED11183E18D80019672A /* 运动鞋_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动鞋_03.png"; sourceTree = "<group>"; };
-		72C5ED12183E18D80019672A /* 运动鞋_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动鞋_06.png"; sourceTree = "<group>"; };
-		72C5ED13183E18D80019672A /* 运动鞋_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动鞋_11.png"; sourceTree = "<group>"; };
-		72C5ED14183E18D80019672A /* 运动鞋_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动鞋_13.png"; sourceTree = "<group>"; };
-		72C5ED15183E18D80019672A /* 运动鞋_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动鞋_15.png"; sourceTree = "<group>"; };
-		72C5ED16183E18D80019672A /* 运动鞋_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动鞋_17.png"; sourceTree = "<group>"; };
-		72C5ED17183E18D80019672A /* 运动鞋_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动鞋_20.png"; sourceTree = "<group>"; };
-		72C5ED18183E18D80019672A /* 运动鞋_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动鞋_23.png"; sourceTree = "<group>"; };
-		72C5ED19183E18D80019672A /* 运动鞋_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动鞋_26.png"; sourceTree = "<group>"; };
-		72C5ED1A183E18D80019672A /* 运动鞋_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动鞋_29.png"; sourceTree = "<group>"; };
 		72C5ED1B183E18D80019672A /* 运动鞋_42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动鞋_42.png"; sourceTree = "<group>"; };
 		72C5ED1C183E18D80019672A /* 运动鞋_52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动鞋_52.png"; sourceTree = "<group>"; };
 		72C5ED1D183E18D80019672A /* 销量.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "销量.png"; sourceTree = "<group>"; };
@@ -415,24 +385,9 @@
 				72C5ED06183E18D80019672A /* 购物车bg.png */,
 				72C5ED07183E18D80019672A /* 运动鞋1_46.png */,
 				72C5ED08183E18D80019672A /* 运动鞋2_02.png */,
-				72C5ED09183E18D80019672A /* 运动鞋2_05.png */,
-				72C5ED0A183E18D80019672A /* 运动鞋2_07.png */,
-				72C5ED0B183E18D80019672A /* 运动鞋2_09.png */,
 				72C5ED0C183E18D80019672A /* 运动鞋2_11.png */,
-				72C5ED0D183E18D80019672A /* 运动鞋2_14.png */,
-				72C5ED0E183E18D80019672A /* 运动鞋2_17.png */,
 				72C5ED0F183E18D80019672A /* 运动鞋2_20.png */,
-				72C5ED10183E18D80019672A /* 运动鞋2_23.png */,
 				72C5ED11183E18D80019672A /* 运动鞋_03.png */,
-				72C5ED12183E18D80019672A /* 运动鞋_06.png */,
-				72C5ED13183E18D80019672A /* 运动鞋_11.png */,
-				72C5ED14183E18D80019672A /* 运动鞋_13.png */,
-				72C5ED15183E18D80019672A /* 运动鞋_15.png */,
-				72C5ED16183E18D80019672A /* 运动鞋_17.png */,
-				72C5ED17183E18D80019672A /* 运动鞋_20.png */,
-				72C5ED18183E18D80019672A /* 运动鞋_23.png */,
-				72C5ED19183E18D80019672A /* 运动鞋_26.png */,
-				72C5ED1A183E18D80019672A /* 运动鞋_29.png */,
 				72C5ED1B183E18D80019672A /* 运动鞋_42.png */,
 				72C5ED1C183E18D80019672A /* 运动鞋_52.png */,
 				72C5ED1D183E18D80019672A /* 销量.png */,
@@ -752,8 +707,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				72C5ED2D183E18D80019672A /* 商品大小.png in Resources */,
-				72C5ED65183E18D80019672A /* 运动鞋_20.png in Resources */,
-				72C5ED58183E18D80019672A /* 运动鞋2_07.png in Resources */,
 				72C5ED2C183E18D80019672A /* 商品图片大小.png in Resources */,
 				72C5ED3B183E18D80019672A /* 图片大小.png in Resources */,
 				72C5ED8C183E32290019672A /* btn3.png in Resources */,
@@ -761,7 +714,6 @@
 				72C5ED40183E18D80019672A /* 左滑_06.png in Resources */,
 				72C5ED3D183E18D80019672A /* 左滑-背景.png in Resources */,
 				72C5ED34183E18D80019672A /* 商品详情_03.png in Resources */,
-				72C5ED5B183E18D80019672A /* 运动鞋2_14.png in Resources */,
 				72C5ED5F183E18D80019672A /* 运动鞋_03.png in Resources */,
 				72C5ED4C183E18D80019672A /* 搜索_10.png in Resources */,
 				72C5ED87183E32290019672A /* btn1_hl.png in Resources */,
@@ -770,8 +722,6 @@
 				72C5ED74183E18D80019672A /* 首页_12.png in Resources */,
 				72C5ED4E183E18D80019672A /* 购物车2_02.png in Resources */,
 				72C5ED42183E18D80019672A /* 左滑_11.png in Resources */,
-				72C5ED67183E18D80019672A /* 运动鞋_26.png in Resources */,
-				72C5ED5C183E18D80019672A /* 运动鞋2_17.png in Resources */,
 				72C5ED3C183E18D80019672A /* 图片背景大小.png in Resources */,
 				72C5ED2E183E18D80019672A /* 商品大背景框.png in Resources */,
 				72C5ED8B183E32290019672A /* btn3_hl.png in Resources */,
@@ -803,31 +753,22 @@
 				72C5ED51183E18D80019672A /* 购物车_14.png in Resources */,
 				72C5ED4A183E18D80019672A /* 搜索3_08.png in Resources */,
 				72C5ED28183E18D80019672A /* 人气.png in Resources */,
-				72C5ED63183E18D80019672A /* 运动鞋_15.png in Resources */,
 				72C5ED53183E18D80019672A /* 购物车_22.png in Resources */,
 				72C5ED71183E18D80019672A /* 首页_03.png in Resources */,
 				72C5ED36183E18D80019672A /* 商品详情_06.png in Resources */,
 				72C5ED38183E18D80019672A /* 商品详情_17.png in Resources */,
-				72C5ED57183E18D80019672A /* 运动鞋2_05.png in Resources */,
 				72C5ED88183E32290019672A /* btn1.png in Resources */,
-				72C5ED60183E18D80019672A /* 运动鞋_06.png in Resources */,
-				72C5ED59183E18D80019672A /* 运动鞋2_09.png in Resources */,
 				72C5ED8E183E32290019672A /* btn4.png in Resources */,
-				72C5ED5E183E18D80019672A /* 运动鞋2_23.png in Resources */,
 				72C5ED46183E18D80019672A /* 我喜欢的_03.png in Resources */,
-				72C5ED62183E18D80019672A /* 运动鞋_13.png in Resources */,
 				72C5ED6E183E18D80019672A /* 首页1_06.png in Resources */,
 				72C5ED6A183E18D80019672A /* 运动鞋_52.png in Resources */,
 				72C5ED45183E18D80019672A /* 我喜欢的-背景.png in Resources */,
 				72C5ED3A183E18D80019672A /* 商品详情_23.png in Resources */,
-				72C5ED61183E18D80019672A /* 运动鞋_11.png in Resources */,
 				72C5ED3F183E18D80019672A /* 左滑_03.png in Resources */,
 				72C5ED70183E18D80019672A /* 首页1_10.png in Resources */,
-				72C5ED66183E18D80019672A /* 运动鞋_23.png in Resources */,
 				72C5ED49183E18D80019672A /* 搜索2_07.png in Resources */,
 				D27B6687183E1361007555F5 /* InfoPlist.strings in Resources */,
 				72C5ED6B183E18D80019672A /* 销量.png in Resources */,
-				72C5ED64183E18D80019672A /* 运动鞋_17.png in Resources */,
 				D27B668F183E1362007555F5 /* Images.xcassets in Resources */,
 				72C5ED55183E18D80019672A /* 运动鞋1_46.png in Resources */,
 				72C5ED52183E18D80019672A /* 购物车_18.png in Resources */,
@@ -839,7 +780,6 @@
 				72C5ED6C183E18D80019672A /* 首页-bg.png in Resources */,
 				72C5ED30183E18D80019672A /* 商品详情1_02.png in Resources */,
 				72C5ED3E183E18D80019672A /* 左滑_02.png in Resources */,
-				72C5ED68183E18D80019672A /* 运动鞋_29.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
