@@ -11,6 +11,8 @@
 #import "STDataHelper+Database.h"
 #import "STModelCategory.h"
 #import "STCateDetailsViewController.h"
+#import "STAppDelegate.h"
+#import "DDMenuController.h"
 
 @interface STHomeViewController ()
 
@@ -48,7 +50,8 @@
 
 // 显示菜单事件
 - (void)showMenu {
-    
+    STAppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
+    [appDelegate.ddmenu showLeftController:YES];
 }
     
 - (void)cateButtonClicked:(UIButton *)button {

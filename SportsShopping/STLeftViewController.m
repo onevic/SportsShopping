@@ -8,6 +8,12 @@
 
 #import "STLeftViewController.h"
 #import "STLeftCell.h"
+#import "STAppDelegate.h"
+#import "STHomeViewController.h"
+#import "STSearchViewController.h"
+#import "STMyFavoriteViewController.h"
+#import "DDMenuController.h"
+#import "STCenterViewController.h"
 
 @interface STLeftViewController ()
 
@@ -81,36 +87,36 @@
     //    } else if (indexPath.row == 4) {
     //
     //    }
-//    if (indexPath.row == 0)
-//    {
-//        IndexViewController *index = [[IndexViewController alloc] init];
-//        STBaseNavigationController *nav = [[STBaseNavigationController alloc] initWithRootViewController:index];
-//        AppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
-//        [appDelegate.ddmenu setRootController:nav animated:YES];
-//    }
-//    
-//    if (indexPath.row == 1)
-//    {
-//        STSearchViewController *search = [[STSearchViewController alloc] init];
-//        STBaseNavigationController *nav = [[STBaseNavigationController alloc] initWithRootViewController:search  ];
-//        
-//        AppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
-//        [appDelegate.ddmenu setRootController:nav animated:YES];
-//    }
-//    
-//    if (indexPath.row == 2) {
-//        MyFavouriteViewController *favourite = [[MyFavouriteViewController alloc] init];
-//        STBaseNavigationController *nav = [[STBaseNavigationController alloc] initWithRootViewController:favourite];
-//        AppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
-//        [appDelegate.ddmenu setRootController:nav animated:YES];
-//    }
-//    
-//    if (indexPath.row == 3) {
-//        CenterViewController *center = [[CenterViewController alloc] init];
-//        STBaseNavigationController *nav = [[STBaseNavigationController alloc] initWithRootViewController:center];
-//        AppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
-//        [appDelegate.ddmenu setRootController:nav animated:YES];
-//    }
+    if (indexPath.row == 0)
+    {
+        STHomeViewController *home = [[STHomeViewController alloc] init];
+        //STBaseViewController *nav = [[STBaseViewController alloc] initWithRootViewController:index];
+        STAppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
+        [appDelegate.ddmenu setRootController:home animated:YES];
+    }
+    
+    if (indexPath.row == 1)
+    {
+        STSearchViewController *search = [[STSearchViewController alloc] init];
+       // STBaseNavigationController *nav = [[STBaseNavigationController alloc] initWithRootViewController:search  ];
+        
+        STAppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
+        [appDelegate.ddmenu setRootController:search animated:YES];
+    }
+    
+    if (indexPath.row == 2) {
+        STMyFavoriteViewController *favourite = [[STMyFavoriteViewController alloc] init];
+       // STBaseNavigationController *nav = [[STBaseNavigationController alloc] initWithRootViewController:favourite];
+        STAppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
+        [appDelegate.ddmenu setRootController:favourite animated:YES];
+    }
+    
+    if (indexPath.row == 3) {
+        STCenterViewController *center = [[STCenterViewController alloc] init];
+        //STBaseNavigationController *nav = [[STBaseNavigationController alloc] initWithRootViewController:center];
+        STAppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
+        [appDelegate.ddmenu setRootController:center animated:YES];
+    }
 }
 
 - (float)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath

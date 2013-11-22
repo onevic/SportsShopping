@@ -8,6 +8,6 @@
 
 #import "STBaseViewController.h"
 
-@interface STMyFavoriteViewController : STBaseViewController
+@interface STMyFavoriteViewController : STBaseViewController <UITableViewDelegate,UITableViewDataSource>
 
 @end

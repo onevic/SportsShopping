@@ -95,6 +95,9 @@
 		72C5ED8C183E32290019672A /* btn3.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED84183E32290019672A /* btn3.png */; };
 		72C5ED8D183E32290019672A /* btn4_hl.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED85183E32290019672A /* btn4_hl.png */; };
 		72C5ED8E183E32290019672A /* btn4.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C5ED86183E32290019672A /* btn4.png */; };
+		72D9470B183ED26B0041A7E7 /* STSearchResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D9470A183ED26B0041A7E7 /* STSearchResultCell.m */; };
+		72D9470E183ED4A20041A7E7 /* STMyFavouriteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D9470D183ED4A20041A7E7 /* STMyFavouriteCell.m */; };
+		72D94712183ED87E0041A7E7 /* STCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D94711183ED87E0041A7E7 /* STCenterViewController.m */; };
 		D254BC9D183E25B100C61DB7 /* sqlite.db in Resources */ = {isa = PBXBuildFile; fileRef = D254BC9C183E25B100C61DB7 /* sqlite.db */; };
 		D254BCA0183E29E500C61DB7 /* STCateDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D254BC9F183E29E500C61DB7 /* STCateDetailsViewController.m */; };
 		D27B667D183E1361007555F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27B667C183E1361007555F5 /* Foundation.framework */; };
@@ -241,6 +244,12 @@
 		72C5ED84183E32290019672A /* btn3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn3.png; sourceTree = "<group>"; };
 		72C5ED85183E32290019672A /* btn4_hl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn4_hl.png; sourceTree = "<group>"; };
 		72C5ED86183E32290019672A /* btn4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn4.png; sourceTree = "<group>"; };
+		72D94709183ED26B0041A7E7 /* STSearchResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSearchResultCell.h; sourceTree = "<group>"; };
+		72D9470A183ED26B0041A7E7 /* STSearchResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSearchResultCell.m; sourceTree = "<group>"; };
+		72D9470C183ED4A20041A7E7 /* STMyFavouriteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMyFavouriteCell.h; sourceTree = "<group>"; };
+		72D9470D183ED4A20041A7E7 /* STMyFavouriteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMyFavouriteCell.m; sourceTree = "<group>"; };
+		72D94710183ED87E0041A7E7 /* STCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCenterViewController.h; sourceTree = "<group>"; };
+		72D94711183ED87E0041A7E7 /* STCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCenterViewController.m; sourceTree = "<group>"; };
 		D254BC9C183E25B100C61DB7 /* sqlite.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = sqlite.db; sourceTree = "<group>"; };
 		D254BC9E183E29E500C61DB7 /* STCateDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCateDetailsViewController.h; sourceTree = "<group>"; };
 		D254BC9F183E29E500C61DB7 /* STCateDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCateDetailsViewController.m; sourceTree = "<group>"; };
@@ -441,6 +450,15 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		72D9470F183ED8680041A7E7 /* Center */ = {
+			isa = PBXGroup;
+			children = (
+				72D94710183ED87E0041A7E7 /* STCenterViewController.h */,
+				72D94711183ED87E0041A7E7 /* STCenterViewController.m */,
+			);
+			name = Center;
+			sourceTree = "<group>";
+		};
 		D27B6670183E1361007555F5 = {
 			isa = PBXGroup;
 			children = (
@@ -475,6 +493,7 @@
 		D27B6682183E1361007555F5 /* SportsShopping */ = {
 			isa = PBXGroup;
 			children = (
+				72D9470F183ED8680041A7E7 /* Center */,
 				72C5ECD9183E18D80019672A /* Images */,
 				D27B668B183E1361007555F5 /* STAppDelegate.h */,
 				D27B668C183E1361007555F5 /* STAppDelegate.m */,
@@ -639,6 +658,8 @@
 			children = (
 				D2B03225183E32B500E00419 /* STSearchViewController.h */,
 				D2B03226183E32B500E00419 /* STSearchViewController.m */,
+				72D94709183ED26B0041A7E7 /* STSearchResultCell.h */,
+				72D9470A183ED26B0041A7E7 /* STSearchResultCell.m */,
 			);
 			name = Search;
 			sourceTree = "<group>";
@@ -648,6 +669,8 @@
 			children = (
 				D2B0322C183E32E000E00419 /* STMyFavoriteViewController.h */,
 				D2B0322D183E32E000E00419 /* STMyFavoriteViewController.m */,
+				72D9470C183ED4A20041A7E7 /* STMyFavouriteCell.h */,
+				72D9470D183ED4A20041A7E7 /* STMyFavouriteCell.m */,
 			);
 			name = MyFav;
 			sourceTree = "<group>";
@@ -848,6 +871,7 @@
 				D27B66DB183E1562007555F5 /* FMDatabaseQueue.m in Sources */,
 				D2B03227183E32B500E00419 /* STSearchViewController.m in Sources */,
 				D27B66DC183E1562007555F5 /* FMResultSet.m in Sources */,
+				72D9470B183ED26B0041A7E7 /* STSearchResultCell.m in Sources */,
 				D27B66EB183E164D007555F5 /* STHomeViewController.m in Sources */,
 				D27B66F9183E1A95007555F5 /* STDataHelper.m in Sources */,
 				D27B66B2183E1542007555F5 /* UIView+Position.m in Sources */,
@@ -860,6 +884,7 @@
 				D27B66DF183E1574007555F5 /* DDMenuController.m in Sources */,
 				D2B0322E183E32E000E00419 /* STMyFavoriteViewController.m in Sources */,
 				D27B66EE183E1797007555F5 /* STLeftViewController.m in Sources */,
+				72D94712183ED87E0041A7E7 /* STCenterViewController.m in Sources */,
 				D27B66CB183E1550007555F5 /* UIButton+WebCache.m in Sources */,
 				D27B66DA183E1562007555F5 /* FMDatabasePool.m in Sources */,
 				D27B66C8183E1550007555F5 /* SDWebImageDownloader.m in Sources */,
@@ -867,6 +892,7 @@
 				D27B6703183E1E3D007555F5 /* STModelCategory.m in Sources */,
 				D27B6706183E1E56007555F5 /* STModelItem.m in Sources */,
 				D27B66FC183E1B03007555F5 /* STDataHelper+Network.m in Sources */,
+				72D9470E183ED4A20041A7E7 /* STMyFavouriteCell.m in Sources */,
 				D2B0322A183E32CA00E00419 /* STItemDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

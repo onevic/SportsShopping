@@ -54,7 +54,7 @@
 {
     // 添加标题
     UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(120, 13, 80, 18)];
-   // titleLabel.text = [NSString stringWithFormat:@"%@",_cate.categoryName];
+    titleLabel.text = [NSString stringWithFormat:@"%@",_category.categoryName];
     titleLabel.textAlignment = NSTextAlignmentCenter;
     titleLabel.font = [UIFont boldSystemFontOfSize:18];
     titleLabel.textColor = [UIColor whiteColor];
